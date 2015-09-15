@@ -87,6 +87,10 @@
   background-image: url(<?php print $icon_path; ?>/icon-spiceworks.png);
 }
 
+<?php print $selector_prefix; ?>a.follow-link-github {
+  background-image: url(<?php print $icon_path; ?>/icon-github.png);
+}
+
 <?php print $selector_prefix; ?>a.follow-link-newsletter {
   background-image: url(<?php print $icon_path; ?>/icon-newsletter.png);
 }

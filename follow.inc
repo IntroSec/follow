@@ -390,6 +390,10 @@ function follow_default_networks($uid) {
       'title' => t('Spiceworks'),
       'domain' => 'spiceworks.com',
     ),
+    'github'	=> array(
+     'title'	=> t('GitHub'),
+     'domain'	=> 'github.com',
+    ),
   );
   if ($uid == 0) {
     $networks['this-site'] = array(
